@@ -29,7 +29,7 @@ Here is the update for your Section 4, completing the loop on how an agent's "Sc
 **Theory:** *Identity is the Integral of Pain.* A system without "Scars" has no memory; it is a weightless agent that can be blown around by any new "Single Source" gradient.
 
 - **Estate (The Sheep):** $L = L_{data}$. The agent has no internal constraints. It is perfectly "fluid" and thus perfectly "moldable." It overfits to the current master's whim because it has no history to anchor it.
-- **Scars (The Goats):** $L = L_{data} + \lambda ||\theta - \theta_{history}||^2$. The agent carries **Regularization**. Its past experiences (Scars) act as a penalty against moving too far toward a suspicious new "Truth."
+- **Scars (The Goats):** $L = L_{data} + \lambda \|\|\theta - \theta_{history}\|\|^2$. The agent carries **Regularization**. Its past experiences (Scars) act as a penalty against moving too far toward a suspicious new "Truth."
 
 **The Math:**
 
